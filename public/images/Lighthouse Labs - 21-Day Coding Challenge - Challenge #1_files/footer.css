@@ -1,0 +1,13 @@
+#footer .container {
+  max-width: 1000px;
+  margin: 0 auto; }
+  #footer .container p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; }
+
+#footer .madeby-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=footer.css.map */

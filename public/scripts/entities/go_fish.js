@@ -2,9 +2,12 @@ class GoFish extends Fish {
 
   constructor(options) {
     super(options);
+    this.imageUri = '/images/go-fish.png'; // Set the image
     this.surgeSecondsLeft = 0;
     this.maxSurge = 1.0;
     this.surgMult = 3.0;
+    this.height =  70; // Optional: The height of the sprite in pixels. This defaults to 60
+    this.width =  70; // Optional: The width of the sprite in pixels. This defaults to 60
   }
 
   updateOneTick() {
